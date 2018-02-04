@@ -1,0 +1,133 @@
+* {
+  margin: 30;
+  padding: 30;
+}
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto');
+html {
+  box-sizing: border-box;
+}
+.cover img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height : auto;
+  max-width: 1200px;
+  min-width: 450px;
+
+}
+.article-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin:50px;
+}
+.cover {
+  width: 100%; 
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.dateandtime{
+    display: inline-block;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.articleitems img{
+	margin-top: 10px;
+  	max-height: 250px;
+  	max-width:350px;
+}
+
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 63px;
+    margin-right: 63px;
+}
+.error{
+	text-align: center;
+	font-size: 48px;
+	line-height: 30px;
+	font-family: 'Roboto';
+	color: #333;
+
+}
+body img {
+  display: inline-block;
+}
+
+
+.textoverlay{
+	position: absolute;
+	text-align: center;
+	left:40%;
+	top:150px;
+	font-family: 'Roboto';
+	font-size: 48px;
+	color:#eee;
+}
+
+img{
+	width: 90%;
+}
+
+body{
+	line-height: 15px;
+	font-family: 'Lora';
+	font-size: 16px;
+}
+
+h1, h2, h3, ,h4, h5, a{
+	text-align: left;
+	font-size: 48px;
+	line-height: 30px;
+	font-family: 'Roboto',serif;
+	color: #333;
+}
+
+h2{
+	font-size: 32px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h5{
+	font-size: 48px;
+	color: #eee;
+}
+h4{
+	font-size: 24px;
+	text-decoration: none;
+	color: #333;
+	line-height: 0px;
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 16px;
+	color: #333;
+	
+}
+
+
+blockquote {
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
